@@ -8,7 +8,6 @@ using namespace std;
 
 int main()
 {
-
     int N, d;
     cin >> N >> d;
     (d >= N) ? d = d % N : d;
@@ -25,5 +24,6 @@ int main()
 
     for (i = 0; i < N; i++)
         cout << arr[i] << " ";
+    
     return 0;
 }
