@@ -6,6 +6,11 @@
 #include <iostream>
 using namespace std;
 
+void rotaateLeft(int d)
+{
+    printf("The rotaation occurred");
+}
+
 int main()
 {
     int N, d;
