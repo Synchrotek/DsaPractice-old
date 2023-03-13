@@ -6,10 +6,6 @@
 #include <iostream>
 using namespace std;
 
-void rotaateLeft(int d)
-{
-}
-
 int main()
 {
     int N, d;
