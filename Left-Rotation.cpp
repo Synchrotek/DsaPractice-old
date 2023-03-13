@@ -8,7 +8,7 @@ using namespace std;
 
 void rotaateLeft(int d)
 {
-    printf("The rotaation occurred");
+    printf("The rotaation occurred by left");
 }
 
 int main()
