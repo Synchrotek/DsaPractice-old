@@ -3,7 +3,7 @@
 // site -> hackerrank.com
 // problemName -> Dynamic Array
 
-
+#include <iostream>
 #include <iostream>
 using namespace std;
 
