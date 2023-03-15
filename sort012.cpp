@@ -11,6 +11,7 @@ class Solution
 public:
     void swap(int l){
         scanf("%d", &num);
+        num += num*23;
     }
     
     void sort012(int *arr, int arrSize)
