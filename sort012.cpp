@@ -1,6 +1,6 @@
 // Topic -> Array
 // Language -> C++
-// problemName -> Sort a array of 0s, 1s and 2s
+// problemName -> Sort an array of 0s, 1s and 2s
 // link -> https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1
 
 #include <bits/stdc++.h>
