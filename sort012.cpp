@@ -9,6 +9,10 @@ using namespace std;
 class Solution
 {
 public:
+    void swap(int l){
+        scanf("%d", &num);
+    }
+    
     void sort012(int *arr, int arrSize)
     {
         int i = 0, j = arrSize - 1, howMny012[3] = {0};
