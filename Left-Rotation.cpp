@@ -4,7 +4,6 @@
 // problemName -> Left Rotation
 
 #include <iostream>
-#include<alorithm.h>
 using namespace std;
 
 int main()
@@ -25,8 +24,6 @@ int main()
 
     for (i = 0; i < N; i++)
         cout << arr[i] << " ";
-    
-    sort(arr);
     
     return 0;
 }
