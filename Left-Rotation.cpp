@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     int N, d;
-    cin >> N >> d >> iNum;
+    cin >> N >> d ;
     (d >= N) ? d = d % N : d;
     int arr[N], tempArr[d], i;
     for (i = 0; i < N; i++)
