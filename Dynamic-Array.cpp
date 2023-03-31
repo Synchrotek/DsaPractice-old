@@ -1,7 +1,7 @@
 // Topic -> Data Structure (Array)
 // Language -> C++
 // site -> hackerrank.com
-// problemName -> Dynamic Array
+// problemName -> Dynamic Array using new array and del old array
 
 #include <iostream>
 using namespace std;
