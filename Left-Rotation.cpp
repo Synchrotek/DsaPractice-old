@@ -1,5 +1,5 @@
 // Topic -> Data Structure (Array)
-// Language -> C++
+// Language -> C
 // site -> hackerrank.com
 // problemName -> Left Rotation
 
