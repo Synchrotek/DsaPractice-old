@@ -8,6 +8,7 @@ using namespace std;
 
 class Solution
 {
+    
 public:    
     void sort012(int *arr, int arrSize)
     {
