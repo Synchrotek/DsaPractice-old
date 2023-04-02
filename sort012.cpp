@@ -30,7 +30,7 @@ public:
                 howMny012[1]++;
             else if (arr[j] == 2)
                 howMny012[2]++;
-            i++, j--, k++;
+            i++, j--;
         }
 
         for (i = 0, j = 0; i < arrSize; i++, howMny012[j]--)
