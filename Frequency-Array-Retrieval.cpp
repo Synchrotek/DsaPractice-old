@@ -48,5 +48,4 @@ int main()
             cout << -1;
         cout << endl;
     }
-    return 0;
 }
