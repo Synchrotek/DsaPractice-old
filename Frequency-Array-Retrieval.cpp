@@ -14,8 +14,7 @@ int main()
     {
         int i, count, asgnVal = 0;
         cin >> N;
-        if (N <= 0)
-        {
+        if (N <= 0){
             cout << -1 << endl;
             continue;
         }
