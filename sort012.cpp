@@ -6,7 +6,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Solution1
+class Solution
 {
 public:    
     void sort012(int *arr, int arrSize)
