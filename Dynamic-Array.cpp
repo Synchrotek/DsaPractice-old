@@ -6,6 +6,7 @@
 #include <iostream>
 using namespace std;
 
+
 void appendValue(int *&arr, int size, int value)
 {
     int *newArray = new int[size + 1];
