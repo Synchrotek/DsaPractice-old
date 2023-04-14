@@ -19,7 +19,7 @@ void appendValue(int *&arr, int size, int value)
 
 int main()
 {
-    int N, Qx;
+    int N, Q;
     cin >> N >> Q;
     int queries[3], arrSizes[N] = {0};
     int index1, index2, i, lastAnswer = 0;
