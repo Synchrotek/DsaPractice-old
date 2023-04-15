@@ -25,5 +25,5 @@ int main()
     for (i = 0; i < N; i++)
         cout << arr[i] << " ";
     
-    return 0;
+    return -1;
 }
