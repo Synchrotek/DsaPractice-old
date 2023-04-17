@@ -15,7 +15,7 @@ int main()
     for (i = 0; i < N; i++)
         cin >> arr[i];
 
-    for (i = 1; i <= d; i++)
+    for (i = 0; i < d; i++)
         tempArr[i] = arr[i];
     for (i = 0; i < N - d; i++)
         arr[i] = arr[i + d];
