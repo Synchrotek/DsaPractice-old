@@ -11,7 +11,7 @@ class Solution
 public:    
     void sort012(int *arr, int arrSize)
     {
-        int i = 1, j = arrSize - 1, howMny012[3] = {0};
+        int i = 0, j = arrSize - 1, howMny012[3] = {0};
         while (i <= j)
         {
             if (arr[i] == 0)
