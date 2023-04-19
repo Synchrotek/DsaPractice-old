@@ -41,7 +41,7 @@ int main()
             (count == arr[i]) ? remN -= arr[i] : remN;
         }
         
-        if (remN == 1)
+        if (remN == 0)
             for (i = 0; i < N; i++)
                 cout << resArr[i] << " ";
         else
