@@ -36,7 +36,7 @@ int main()
             appendValue(arr[index1], arrSizes[index1], queries[2]);
             arrSizes[index1]++;
         }
-        else if (queries[0] == 1)
+        else if (queries[0] == 2)
         {
             index1 = (queries[1] ^ lastAnswer) % N;
             index2 = queries[2] % arrSizes[index1];
