@@ -16,7 +16,7 @@ int main()
         cin >> N;
         if (N <= 0)
         {
-            cout << -1 << endl;
+            cout << -1 << "then, " << endl;
             continue;
         }
         remN = N;
