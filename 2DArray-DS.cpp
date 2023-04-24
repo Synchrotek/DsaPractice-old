@@ -1,7 +1,7 @@
 // Topic -> Data Structure (Array)
 // Language -> C++
 // site -> hackerrank.com
-// problemName -> 2D Array - DS
+// problemName -> 2D Array - D
 
 #include <iostream>
 using namespace std;
