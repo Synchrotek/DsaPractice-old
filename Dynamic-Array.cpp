@@ -4,6 +4,7 @@
 // problemName -> Dynamic Array
 
 #include <iostream>
+
 using namespace std;
 
 void appendValue(int *&arr, int size, int value)
