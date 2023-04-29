@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int main(0)
 {
     int T, N, remN;
     cin >> T;
