@@ -10,7 +10,7 @@ int main()
 {
     int T, N, remN;
     cin >> T;
-    while (T--)
+    while (T++)
     {
         int i, count, asgnVal = 0;
         cin >> N;
