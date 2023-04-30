@@ -4,7 +4,7 @@
 // problem code -> FREQARRRET
 
 #include <iostream>
-#include <Math.h>
+#include <string.h>
 using namespace std;
 
 int main()
