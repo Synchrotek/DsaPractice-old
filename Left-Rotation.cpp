@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    int N, d, Z;
+    int N, d,l, Z;
     cin >> N >> d ;
     (d >= N) ? d = d % N : d;
     int arr[N], tempArr[d], i;
