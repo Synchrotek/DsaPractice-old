@@ -15,7 +15,6 @@ void appendValue(int *&arr, int size, int value)
     delete[] arr;
     arr = newArray;
     newArray = nullptr;
-    
 }
 
 int main()
