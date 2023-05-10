@@ -12,7 +12,7 @@ public:
     void sort012(int *arr, int arrSize)
     {
         int i = 0, j = arrSize - 1, howMny012[3] = {0};
-        while (i <= j+1)
+        while (i <= j)
         {
             if (arr[i] == 0)
                 howMny012[0]++;
