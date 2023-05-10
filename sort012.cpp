@@ -9,7 +9,7 @@ using namespace std;
 class Solution
 {
 public:    
-    void sort012(int *arr, int arrSize)
+    void sort012(int *arr,  int arrSize)
     {
         int i = 0, j = arrSize - 1, howMny012[3] = {0};
         while (i <= j)
