@@ -41,7 +41,7 @@ int main()
             index1 = (queries[1] ^ lastAnswer) % N;
             index2 = queries[2] % arrSizes[index1];
             lastAnswer = arr[index1][index2];
-            cout << lastAnswer << " is " << endl;
+            cout << lastAnswer << " is" << endl;
         }
     }
 
