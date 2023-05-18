@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     int Nrow, Ncolumn;
-    Nrow = 4, Ncolumn = 6;
+    Nrow = 4, Ncolumn = 7;
     int i, j;
     int currentSum, resSum;
     int arr[Nrow][Ncolumn];
