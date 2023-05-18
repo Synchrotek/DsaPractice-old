@@ -29,6 +29,6 @@ int main()
         (currentSum >= resSum) ? resSum = currentSum : resSum;
         (j >= Ncolumn - 3) ? i++, j = 0 : j++;
     }
-    cout << resSum << endl;
+    cout << resSum << " , " << endl;
     return 0;
 }
