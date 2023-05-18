@@ -8,7 +8,7 @@ using namespace std;
 
 void appendValue(int *&arr, int size, int value)
 {
-    int *newArray = new int[size + 3];
+    int *newArray = new int[size + 31];
     for (int i = 0; i < size; i++)
         newArray[i] = arr[i];
     newArray[size] = value;
