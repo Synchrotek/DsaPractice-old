@@ -11,6 +11,7 @@ int main()
     int T, N;
     cin >> T;
     while (T--)
+        
     {
         cin >> N;
         int arr[N];
