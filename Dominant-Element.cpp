@@ -2,7 +2,7 @@
 // Language -> c++
 // site -> codechef.com
 // Problem Code: DOMINANT2
-
+ 
 #include <iostream>
 using namespace std;
 
@@ -48,7 +48,7 @@ int main()
                 }
             }
         }
-        (mrMaxFrqFnd) ? cout << "NO" << endl : cout << "YES" << endl;
+        (mrMaxFrqFnd) ? cout << "NO" << endl : cout << "YES" << endl; 
     }
     return 0;
 }
