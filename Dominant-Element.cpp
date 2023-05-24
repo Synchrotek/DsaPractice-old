@@ -48,7 +48,7 @@ int main()
                 }
             }
         }
-        (mrMaxFrqFnd) ? cout << "NO" << endl : cout << "YES" << endl; 
+        (mrMaxFrqFnd) ? cout << "NO" << endl : cout << "YES" << endl;
     }
     return 0;
 }
