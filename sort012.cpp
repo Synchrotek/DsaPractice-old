@@ -29,7 +29,7 @@ public:
             else if (arr[j] == 1)
                 howMny012[1]++;
             else if (arr[j] == 2)
-                howMny012[2]++; 
+                howMny012[2]++;
             i++, j--;
         }
 
