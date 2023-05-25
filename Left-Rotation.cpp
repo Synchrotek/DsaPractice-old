@@ -3,6 +3,7 @@
 // site -> hackerrank.com
 // problemName -> Left Rotation
 
+
 #include <iostream>
 using namespace std;
 
