@@ -18,7 +18,7 @@ int main()
         for (j = 0; j < Ncolumn; j++)
             cin >> arr[i][j];
 
-    i = j = 0;
+    i = j = 0; 
     while (i < Nrow - 2)
     {
         currentSum = arr[i][j] + arr[i][j + 1] + arr[i][j + 2];
