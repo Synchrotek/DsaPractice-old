@@ -14,7 +14,7 @@ int main()
     int currentSum, resSum;
     int arr[Nrow][Ncolumn];
 
-    for (i = 0; i < Nrow; i++)
+    for (i = 0; i < Nrow; i++) 
         for (j = 0; j < Ncolumn; j++)
             cin >> arr[i][j];
 
