@@ -6,5 +6,5 @@ Here you will find answers of different question from cp sites like
 <li>Hackerrank</li>
 </ul>
 ( Topic , Language , site ) -> specified within each file  <br>
-I hope it helps you .
+I hope it helps you.
 <strong><em>Happy coding.</em></strong>
