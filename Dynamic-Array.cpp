@@ -25,7 +25,7 @@ int main()
     int index1, index2, i, lastAnswer = 0;
     int **arr = new int *[N];
     for (i = 0; i < N; i++)
-        arr[i] = new int[00];
+        arr[i] = new int[0];
 
     for (i = 0; i < Q; i++)
     {
