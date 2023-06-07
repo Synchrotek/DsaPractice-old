@@ -1,7 +1,7 @@
 // Topic -> Data Structure (Array)
 // Language -> C++
 // site -> hackerrank.com
-// problemName -> Dynamic Array problem
+// problemName -> Dynamic Array 
 
 #include <iostream>
 using namespace std;
