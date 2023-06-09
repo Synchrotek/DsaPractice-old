@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     int T, N, remN;
-    cin >> T; 
+    cin >> T;
     while (T--)
     {
         int i, count, asgnVal = 0;
