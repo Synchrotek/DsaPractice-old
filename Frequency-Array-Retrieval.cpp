@@ -28,7 +28,7 @@ int main()
             count = 1;
             if (arr[i] == -1)
                 continue;
-            resArr[i] = ++asgnVal;
+            resArr[i] = ++asgnVal; 
             for (int j = i + 1; (j < N) && (count < arr[i]); j++)
             {
                 if (arr[i] == arr[j])
