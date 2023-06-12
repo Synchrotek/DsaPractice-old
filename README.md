@@ -1,6 +1,6 @@
 # CP-answers
 <hr width="40%">
-Here you will find answers of different que stion from cp sites like
+Here you will find answers of different question from cp sites like
 <ul>
 <li>Codechef</li> 
 <li>Hackerrank</li>
