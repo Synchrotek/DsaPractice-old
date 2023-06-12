@@ -1,7 +1,7 @@
-// Topic -> Basic problems
+// Topic -> Basic Problem
 // Language -> C++
 // site -> codechef.com
-// problemName -> Basic problems
+// problemCode -> SMOL
 
 #include <iostream>
 using namespace std;
