@@ -1,7 +1,7 @@
 // Topic -> Basic Problem
 // Language -> C++
 // site -> codechef.com
-// problemCode -> SMOL
+// problemCode -> CHFSPL
 
 #include <iostream>
 using namespace std;
