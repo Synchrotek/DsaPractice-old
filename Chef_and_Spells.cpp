@@ -1,53 +1,31 @@
 // Topic -> Basic Problem
 // Language -> C++
 // site -> codechef.com
-// problemCode -> CHFSPL
+// problemCode -> NFS
 
 #include <iostream>
+#include <cmath>
 using namespace std;
-
-void appendValue(int *&arr, int size, int value)
-{
-    int *newArray = new int[size + 1];
-    for (int i = 0; i < size; i++)
-        newArray[i] = arr[i];
-    newArray[size] = value;
-    delete[] arr;
-    arr = newArray;
-    newArray = nullptr;
-}
 
 int main()
 {
-    int N, Q;
-    cin >> N >> Q;
-    int queries[3], arrSizes[N] = {0};
-    int index1, index2, i, lastAnswer = 0;
-    int **arr = new int *[N];
-    for (i = 0; i < N; i++)
-        arr[i] = new int[0];
-
-    for (i = 0; i < Q; i++)
+    int T;
+    cin >> T;
+    float U, V, A, S;
+    while (T--)
     {
-        cin >> queries[0] >> queries[1] >> queries[2];
-        if (queries[0] == 1)
+        cin >> U >> V >> A >> S;
+        if (U <= V)
         {
-            index1 = (queries[1] ^ lastAnswer) % N;
-            appendValue(arr[index1], arrSizes[index1], queries[2]);
-            arrSizes[index1]++;
+            cout << "Yes" << endl;
+            continue;
         }
-        else if (queries[0] == 2)
-        {
-            index1 = (queries[1] ^ lastAnswer) % N;
-            index2 = queries[2] % arrSizes[index1];
-            lastAnswer = arr[index1][index2];
-            cout << lastAnswer << endl;
-        }
+        U = (U * U) - (2 * A * S);
+        (U <= 0) ? U = 0 : U = sqrt(U);
+        if (U <= V)
+            cout << "Yes" << endl;
+        else
+            cout << "No" << endl;
     }
-
-    for (int i = 0; i < N; i++)
-        delete[] arr[i];
-    delete[] arr;
-
     return 0;
 }
