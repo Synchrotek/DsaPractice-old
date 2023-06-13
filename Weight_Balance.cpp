@@ -18,7 +18,7 @@ int main()
         if (x1 <= w2 && x2 >= w2)
             cout << 1 << endl;
         else
-            cout << 0 << endl;
+            cout << 0 << endl; 
     }
     return 0;
 }
