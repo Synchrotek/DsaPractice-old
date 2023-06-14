@@ -3,7 +3,7 @@
 // site -> codechef.com
 // Problem Code: DOMINANT2
  
-#include <iostream>
+#include <iostream> 
 using namespace std;
 
 int main() 
