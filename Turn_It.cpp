@@ -1,7 +1,7 @@
 // Topic -> Basic Problem
 // Language -> C++
 // site -> codechef.com
-// problemCode -> NFS 
+// problemCode -> NFS
 
 #include <iostream>
 #include <cmath>
