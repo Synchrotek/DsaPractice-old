@@ -23,7 +23,7 @@ int main()
     {
         currentSum = arr[i][j] + arr[i][j + 1] + arr[i][j + 2];
         currentSum += arr[i + 1][j + 1];
-        currentSum += arr[i + 2][j] + arr[i + 2=][j + 1] + arr[i + 2][j + 2];
+        currentSum += arr[i + 2][j] + arr[i + 2][j + 1] + arr[i + 2][j + 2];
 
         ((i == 0) && (j == 0)) ? resSum = currentSum : resSum;
         (currentSum >= resSum) ? resSum = currentSum : resSum;
