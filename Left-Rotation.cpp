@@ -4,7 +4,7 @@
 // problemName -> Left Rotation
 
 #include <iostream>
-using namespace std;
+using namespace std; m
 
 int main() 
 {
