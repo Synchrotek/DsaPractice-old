@@ -4,13 +4,13 @@
 // problemName -> Left Rotation
 
 #include <iostream>
-using namespace std; //new obj
+using namespace std; 
 
 int main() 
 {
     int N, d; 
     cin >> N >> d ;
-    (d >= N) ? d = d % N : d;
+    (d >= N) ? d = d % N : d; //new obj
     int arr[N], tempArr[d], i;
     for (i = 0; i < N; i++)
         cin >> arr[i];
