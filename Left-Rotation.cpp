@@ -4,7 +4,7 @@
 // problemName -> Left Rotation
 
 #include <iostream>
-using namespace std; m
+using namespace std; //new obj
 
 int main() 
 {
