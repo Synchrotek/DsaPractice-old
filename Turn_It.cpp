@@ -2,7 +2,7 @@
 // Language -> C++
 // site -> codechef.com
 // problemCode -> NFS
- 
+
 #include <iostream>
 #include <cmath>
 using namespace std;
