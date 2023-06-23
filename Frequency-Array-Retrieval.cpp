@@ -7,7 +7,7 @@
 using namespace std;
 
 int main()
-{ 
+{
     int T, N, remN;
     cin >> T;
     while (T--)
