@@ -7,7 +7,7 @@
 #include <cmath>
 using namespace std;
 
-int main() 
+int main()
 {
     int T;
     cin >> T;
