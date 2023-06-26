@@ -23,7 +23,7 @@ int main()
         arr[i] = tempArr[i - N + d];
 
     for (i = 0; i < N; i++)
-        cout << arr[i] << " ";
+        cout << arr[i] << "  ";
     
     return 0; 
 }
