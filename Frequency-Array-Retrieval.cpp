@@ -1,7 +1,7 @@
 // Topic -> Array
 // Language -> c++
 // site -> codechef.com
-// problem code -> FREQARRRET
+// problem code -> FREQARRRET4
 
 #include <iostream>
 using namespace std;
