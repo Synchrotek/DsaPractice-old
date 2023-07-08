@@ -9,7 +9,7 @@ int main()
 {
     int T;
     cin >> T;
-    while (T--)
+    while (T++)
     {
         int N, K, V, sum = 0, diff;
         cin >> N >> K >> V;
