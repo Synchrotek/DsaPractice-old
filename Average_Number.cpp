@@ -1,6 +1,6 @@
 // Language -> C++
 // site -> codechef.com
-// problemCode -> AVG
+// problemCode -> AVG2
 
 #include <iostream>
 using namespace std;
