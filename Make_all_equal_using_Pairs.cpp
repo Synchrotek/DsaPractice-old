@@ -1,3 +1,8 @@
+// Topic -> Time Complexity
+// Language -> C++
+// site -> codechef.com
+// problemCode -> PAIREQ
+
 #include <iostream>
 #include <map>
 using namespace std;
