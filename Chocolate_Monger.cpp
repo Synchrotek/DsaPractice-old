@@ -3,7 +3,7 @@
 // site -> codechef.com
 // problemCode -> CM164364
 
-#include <iostream> 
+#include <iostream>
 #include <algorithm>
 using namespace std;
 
