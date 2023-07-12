@@ -20,7 +20,7 @@ int main()
 
         if (res <= K)
         {
-            res -= K;
+            res -= K, K++;
             if (res % 2 == 0)
                 cout << "YES" << endl;
             else
