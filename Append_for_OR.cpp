@@ -2,7 +2,7 @@
 // Language -> C++
 // site -> codechef.com
 // problemCode -> APPENDOR
- 
+
 #include <iostream>
 using namespace std;
 
