@@ -1,7 +1,7 @@
 // Topic -> Time Complexity
 // Language -> C++
 // site -> codechef.com
-// problemCode -> CM164364f
+// problemCode -> CM164364
 
 #include <iostream>
 #include <algorithm>
