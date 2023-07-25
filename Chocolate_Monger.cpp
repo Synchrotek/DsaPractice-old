@@ -2,11 +2,11 @@
 // Language -> C++
 // site -> codechef.com
 // problemCode -> CM164364
- 
-#include <iostream>
+
+#include <math.h>
 #include <algorithm>
 using namespace std;
- 
+
 int main()
 {
     int T;
