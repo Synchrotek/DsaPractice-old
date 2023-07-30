@@ -2,7 +2,7 @@
 // Language -> C++
 // site -> hackerrank.com
 // problemName -> 2D Array - DS 
-  
+
 #include <iostream>
 using namespace std;
 
