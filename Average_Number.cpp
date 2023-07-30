@@ -2,7 +2,7 @@
 // site -> codechef.com
 // problemCode -> AVG
 
-#include <iostream>
+#include <iostream> 
 using namespace std;
 
 int main()
