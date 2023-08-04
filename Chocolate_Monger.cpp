@@ -1,5 +1,5 @@
 // Topic -> Time Complexity
-// Language -> C++ 
+// Language -> C++
 // site -> codechef.com
 // problemCode -> CM164364
 
