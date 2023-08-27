@@ -2,7 +2,7 @@
 // Language -> C++
 // site -> codechef.com
 // problemCode -> TANDJ1
-
+ 
 #include <iostream>
 using namespace std;
 
