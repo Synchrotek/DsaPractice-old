@@ -1,33 +1,29 @@
-// Language -> C++
-// site -> codechef.com
-// problemCode -> ZCO14003
-
 #include <iostream>
+#include <algorithm>
 using namespace std;
+
+#define ll long long
 
 int main()
 {
-    int T;
-    cin >> T;
-    while (T--)
+    ll N;
+    cin >> N;
+    ll arr[N], max, mul;
+    for (ll i = 0; i < N; i++)
+        cin >> arr[i];
+
+    ll arrSize = sizeof(arr) / sizeof(arr[0]);
+    sort(arr, arr + arrSize);
+
+    max = arr[0] * N;
+
+    for (ll i = 1; i < N; i++)
     {
-        int a, b, c, d, K, res = 0;
-        cin >> a >> b >> c >> d >> K;
-
-        (c > a) ? res += (c - a) : res += (a - c);
-        (d > b) ? res += (d - b) : res += (b - d);
-
-        if (res <= K)
-        {
-            res -= K;
-            if (res % 2 == 0)
-                cout << "YES" << endl;
-            else
-                cout << "NO" << endl;
-        }
-        else
-            cout << "NO" << endl;
+        mul = arr[i] * (N - i);
+        (mul > max) ? max = mul : max;
     }
+
+    cout << max << endl;
 
     return 0;
 }
