@@ -1,4 +1,3 @@
-// Topic -> Basic Problem
 // Language -> C++
 // site -> codechef.com
 // problemCode -> ZCO14003
