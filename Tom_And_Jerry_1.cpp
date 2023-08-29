@@ -1,7 +1,7 @@
 // Topic -> Basic Problem
 // Language -> C++
 // site -> codechef.com
-// problemCode -> TANDJ1
+// problemCode -> ZCO14003
 
 #include <iostream>
 using namespace std;
