@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int main() 
+void main()
 {
     int T, N;
     cin >> T;
@@ -50,5 +50,5 @@ int main()
         }
         (mrMaxFrqFnd) ? cout << "NO" << endl : cout << "YES" << endl;
     }
-    return 0;
+    // return 0;
 }
