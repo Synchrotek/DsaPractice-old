@@ -1,6 +1,6 @@
 // Language -> C++
 // site -> codechef.com
-// problemCode -> AVG Evaluation
+// problemCode -> AVG Eval
 
 #include <iostream>
 using namespace std;
