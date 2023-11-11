@@ -1,7 +1,7 @@
 // Topic -> Basic Problems
 // Language -> C++
 // site -> codechef.com
-// problemCode -> 1
+// problemCode ->WEIGHTBL
 
 #include <iostream>
 using namespace std;
