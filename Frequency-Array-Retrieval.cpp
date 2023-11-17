@@ -2,7 +2,7 @@
 // Language -> c++
 // site -> codechef.com
 // problem code -> FREQARRRET
- 
+
 #include <iostream>
 using namespace std; 
 
