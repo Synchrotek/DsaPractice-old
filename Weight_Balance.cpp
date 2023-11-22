@@ -1,5 +1,5 @@
 // Topic -> Basic Problems
-// Language -> C++ 
+// Language -> C++ / C
 // site -> codechef.com
 // problemCode -> WEIGHTBL
 
