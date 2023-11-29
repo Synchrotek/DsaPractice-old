@@ -1,6 +1,6 @@
 // Topic -> Array
 // Language -> c++
-// site -> leetcode.com
+// site -> codechef.com
 // problem code -> FREQARRRET
 
 #include <iostream>
