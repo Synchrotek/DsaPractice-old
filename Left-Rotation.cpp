@@ -1,7 +1,7 @@
 // Topic -> Data Structure (Array)
 // Language -> C++
 // site -> hackerrank.com
-// problemName -> Left Rotation
+// problemName -> Left Rotation 01
 
 #include <iostream>
 using namespace std;
