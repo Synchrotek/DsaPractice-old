@@ -1,25 +1,33 @@
+// Time complexity: O(n^2)
+// Space complexity: O(1)
+// ----------------------------------
 #include <iostream>
-#include <vector>
 using namespace std;
-
-void selectionSort(vector<int> &arr, int n)
-{
-    for (int i = 0; i < n - 1; i++)
-    {
-        int minIndex = i;
-        for (int j = i + 1; j < n; j++)
-        {
-            if (arr[j] < arr[minIndex])
-            {
-                minIndex = j;
-            }
-        }
-        swap(arr[minIndex], arr[i]);
-    }
-}
 
 int main()
 {
+    int N;
+    cin >> N;
+    int arr[N];
+    for (int i = 0; i < N; i++)
+        cin >> arr[i];
+
+    for (int i = 0; i < N - 1; i++)
+    {
+        for (int j = i + 1; j < N; j++)
+        {
+            if (arr[j] < arr[i])
+            {
+                int temp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = temp;
+            }
+        }
+    }
+
+    for (int i = 0; i < N; i++)
+        cout << arr[i] << " ";
+    cout << endl;
 
     return 0;
 }

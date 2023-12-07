@@ -1,4 +1,4 @@
-// Approach: Devide and conqure Algo
+// Approach: Divide and conqure Algo
 // Time complexity: O(n log(n))
 // Space complexity: O(n)
 // ----------------------------------
