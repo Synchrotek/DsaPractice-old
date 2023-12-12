@@ -1,3 +1,10 @@
+// Time complexites :
+//   - Access: O(N)
+//   - Search: O(N)
+//   - Insertion: O(1)
+//   - Deletion: O(1)
+// ----------------------------------
+
 #include <iostream>
 using namespace std;
 
@@ -62,6 +69,22 @@ void deletionByEle(node *&head, int target)
     }
     node *temp = head;
     while (temp->next->data != target)
+    {
+        temp = temp->next;
+    }
+    node *toDeleteNode = temp->next;
+    temp->next = temp->next->next;
+    delete toDeleteNode;
+}
+void deleteAtTail(node *&head)
+{
+    if (head == NULL || head->next == NULL)
+    {
+        deleteAtHead(head);
+        return;
+    }
+    node *temp = head;
+    while (temp->next->next != NULL)
     {
         temp = temp->next;
     }
