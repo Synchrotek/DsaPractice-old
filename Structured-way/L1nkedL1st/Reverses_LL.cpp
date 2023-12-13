@@ -72,25 +72,6 @@ void display(node *head)
     cout << endl;
 }
 
-// Searching Method ------------------------------
-void searchElement(node *&head, int target)
-{
-    node *temp = head;
-    int index = 0;
-    while (temp != NULL)
-    {
-        if (temp->data == target)
-        {
-            cout << target << " Found at: "
-                 << index << endl;
-            return;
-        }
-        index++;
-        temp = temp->next;
-    }
-    cout << target << ": not found " << endl;
-}
-
 // ```````````````````````````````````````````````
 // Reverse Methods Iterative ---------------------
 node *reverse(node *&head)
