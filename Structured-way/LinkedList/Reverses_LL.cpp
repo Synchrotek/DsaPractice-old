@@ -60,37 +60,16 @@ void deleteAtTail(node *&head)
     delete toDeleteNode;
 }
 
-// Reverse Methods Iterative ------------------------------
-node *reverse(node *&head)
+// Traversal Method -------------------------------
+void display(node *head)
 {
-    node *prevPtr = NULL;
-    node *currPtr = head;
-    node *nextPtr;
-
-    while (currPtr != NULL)
+    node *temp = head;
+    while (temp != NULL)
     {
-        nextPtr = currPtr->next;
-        currPtr->next = prevPtr;
-
-        prevPtr = currPtr;
-        currPtr = nextPtr;
+        cout << temp->data << " ";
+        temp = temp->next;
     }
-    return prevPtr;
-    // head = prevPtr;
-}
-
-// Reverse Methods Recursive ------------------------------
-node *reverse_recursive(node *&head)
-{
-    if (head == NULL || head->next == NULL)
-    {
-        return head;
-    }
-
-    node *newHead = reverse_recursive(head->next);
-    head->next->next = head;
-    head->next = NULL;
-    return newHead;
+    cout << endl;
 }
 
 // Searching Method ------------------------------
@@ -112,18 +91,65 @@ void searchElement(node *&head, int target)
     cout << target << ": not found " << endl;
 }
 
-// Traversal Method -------------------------------
-void display(node *head)
+// ```````````````````````````````````````````````
+// Reverse Methods Iterative ---------------------
+node *reverse(node *&head)
 {
-    node *temp = head;
-    while (temp != NULL)
+    node *prevPtr = NULL;
+    node *currPtr = head;
+    node *nextPtr;
+
+    while (currPtr != NULL)
     {
-        cout << temp->data << " ";
-        temp = temp->next;
+        nextPtr = currPtr->next;
+        currPtr->next = prevPtr;
+
+        prevPtr = currPtr;
+        currPtr = nextPtr;
     }
-    cout << endl;
+    return prevPtr;
+    // head = prevPtr;
 }
 
+// Reverse Methods Recursive ----------------------
+node *reverse_recursive(node *&head)
+{
+    if (head == NULL || head->next == NULL)
+    {
+        return head;
+    }
+
+    node *newHead = reverse_recursive(head->next);
+    head->next->next = head;
+    head->next = NULL;
+    return newHead;
+}
+
+// Reverse K nodes in a Linked List ---------------
+// Time Complexity = O(n)
+node *reverse_k(node *&head, int k)
+{
+    node *prevPtr = NULL;
+    node *currPtr = head;
+    node *nextPtr;
+
+    int count = 0;
+    while (currPtr != NULL && count < k)
+    {
+        nextPtr = currPtr->next;
+        currPtr->next = prevPtr;
+        prevPtr = currPtr;
+        currPtr = nextPtr;
+        count++;
+    }
+    if (nextPtr != NULL)
+    {
+        head->next = reverse_k(nextPtr, k);
+    }
+    return prevPtr;
+}
+
+// ```` Driver Code ``````````````````````````````
 int main()
 {
     node *head = NULL;
@@ -134,10 +160,13 @@ int main()
     insertAtTail(head, 62);
 
     display(head);
-    // node *newHead = reverse(head);
-    node *newHead = reverse_recursive(head);
+    // head = reverse(head);
+    head = reverse_recursive(head);
+    display(head);
 
-    display(newHead);
+    int k = 2;
+    node *reversed_kNode = reverse_k(head, k);
+    display(reversed_kNode);
 
     return 0;
 }
