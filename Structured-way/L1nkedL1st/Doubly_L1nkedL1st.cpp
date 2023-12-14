@@ -46,6 +46,45 @@ void insertAtTail(node *&head, int val)
     n->prev = temp;
 }
 
+// Deletion Methods -------------------------------
+void deleteAtHead(node *&head)
+{
+    if (head == NULL)
+    {
+        return;
+    }
+    node *toDeleteNode = head;
+    head = head->next;
+    head->prev = NULL;
+    delete toDeleteNode;
+}
+void deletionByPos(node *&head, int pos)
+{
+    if (head == NULL)
+    {
+        return;
+    }
+    if (pos == 1 || head->next == NULL)
+    {
+        deleteAtHead(head);
+        return;
+    }
+    node *temp = head;
+    int count = 1;
+    while (temp != NULL && count != pos)
+    {
+        temp = temp->next;
+        count++;
+    }
+    temp->prev->next = temp->next;
+    if (temp->next != NULL)
+    {
+        temp->next->prev = temp->prev;
+    }
+
+    delete temp;
+}
+
 // Traversal Method -------------------------------
 void display(node *head)
 {
@@ -69,6 +108,10 @@ int main()
 
     insertAtHead(head, 16);
     insertAtHead(head, 6);
+    display(head);
+
+    deletionByPos(head, 2);
+    deletionByPos(head, 3);
     display(head);
 
     return 0;
