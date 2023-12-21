@@ -59,9 +59,13 @@ public:
 int main()
 {
     stack st;
-    st.push(1);
-    st.push(2);
-    st.push(3);
+    int N = 1, val = 0;
+    cin >> N; // Size of stack
+    for (int i = 0; i < N; i++)
+    {
+        cin >> val;
+        st.push(val);
+    }
 
     cout << st.peek() << endl;
     st.pop();
